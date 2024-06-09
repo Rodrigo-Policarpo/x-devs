@@ -1,0 +1,31 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url("../images/fundo-base.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cabecalho h1 {
+    color: #F1ECFF;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.personagens-slider {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagens-slider .lista-personagens {
+    background-color: aqua;
+    width: 330px;
+    height: 520px;
+}
