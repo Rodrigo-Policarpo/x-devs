@@ -3,6 +3,7 @@ body {
     background-image: url("../images/fundo-base.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .cabecalho {
@@ -22,10 +23,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
 }
 
 .personagens-slider .lista-personagens {
     background-color: aqua;
     width: 330px;
     height: 520px;
+}
+
+.btn-seta {
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+}
+
+.btn-seta:hover {
+    background-color: #8351fe;
 }
